@@ -1,0 +1,101 @@
+Product ->
+Coffee(1 kg) ----
+Sugar ----
+Milk ----
+3 lasini xam nechta qoganini kiritish kere boladi !!!
+Smena almashtretganda togirlash kere boladi.
+
+
+        "id": user.id,
+        "email": user.email,
+        "first_name": user.first_name,
+        "last_name": user.last_name,
+
+1. Kelish ketish narhi bor narsalar di alohida api qilamiz -> sushnyak
+2. Coffee ni ozi uchun bita api -> Coffee
+
+
+Savdo sotiq
+Kelish
+Cassa <-> order boladi qoshiladi summa
+xar kunli soqqa qancha qoldi boldi hisob kitob qilinadi. Va qancha pul tashab ketilishini
+xam qoldirib minus qilib ketish kere boladi ->
+
+foyda -> 200 -> puldi tashab ketasizmi qanchadir miqdorda -> da -> 100 -> va sizda bugub sof foydaz -> 100
+
+
+Ketish
+Kamunal tolov -> svet, suv, arenda (2 ta odamga beriladi) -> Brand va Joy uchun
+Kunlik harajatlar -> kunli kassadan minus boladi
+
+
+kassa foydasini filteratsiya -> 01.02.2025 -> 03.02.2025
+
+
+barchart -> diogramma -> foyda, harajat
+    diograms -> pychart, linechart, diogramma ni ozi
+
+
+backend admin qism da excel -> olish
+
+
+
+filiallar boyicha kesimda korsatish
+    barchart -> diogramma -> foyda, harajat
+    diograms -> pychart, linechart, diogramma ni ozi
+
+
+django admin kirish yoq -> xamma narsa admin panelda boladi
+
+
+copy pase -> dublicate qilish
+
+
+
+User
+
+
+manager -> admin panel
+    1 chi filial ochiladi
+    manager user create qlishi da filial tanlanadi
+    ish vaqtini qoshish <-> qaysi user ga qancha pul olish
+
+user -> sotuvchi
+user -> xar biri necha soatdan ishlaganini xisoblash -> login boldi logout boldi vaqt oraligini xisoblash
+    qigan kassasi
+    qigan xarajatlar -> xarajatni yozadi va kassadan ayirladi -> kassadan ayirlgan narsa manager ga borishi kere boladi -> summa comment
+
+else xolatida agar sotuchini orniga kimdir ishlaydgan bosa -> mana shu case ga yechim topsh kere
+
+
+
+admin panel
+
+xlsx olish
+
+diogramms korinishi kk
+
+kassa -> diogramm
+
+filial bor
+nechta ishchisi bor
+xar birida aloxida aloxida va filter la tanlab ozgartirish
+
+
+BENEFIT BZ QOSHISH KERE
+
+      "sizes": [
+        {
+          "size": null,
+          "price": 10000,
+          "preparation": null
+        }
+      ]
+
+
+      mana shuni qib berish
+
+BACK qismdi server joylab berish
+
+
+Site settings ga product ulanish kere ilda category

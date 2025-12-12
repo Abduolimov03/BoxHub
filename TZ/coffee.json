@@ -1,0 +1,24 @@
+{
+  "Latte": {
+    "name": "Latte",
+    "description": "Tayyorlanishi: stakanga shakar sut keyin espresso solinadii",
+    "category": 1,
+    "sizes": [
+      {
+        "size": 200,
+        "price": 25000,
+        "preparation": "Espresso: one shot, Sut 150ml, Shakar 20ml"
+      },
+      {
+        "size": 300,
+        "price": 28000,
+        "preparation": "Espresso: one shot, Sut 2000ml, Shakar 25ml"
+      },
+      {
+        "size": 400,
+        "price": 35000,
+        "preparation": "Espresso: one shot, Sut 280ml, Shakar 30ml"
+      }
+    ]
+  }
+}
