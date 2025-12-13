@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from apps.models import Category, Product, CoffeeAndTea, Settings, CoffeeSize, Order, OrderItem
+from apps.models import Category, Product, CoffeeAndTea, Settings, CoffeeSize, Order, OrderItem, Branch
 
 
 @admin.register(Category)
@@ -24,3 +24,4 @@ admin.site.site_title = "Jzr Coffee Admin"
 admin.site.index_title = "Jzr Coffee Dashboard"
 admin.site.register(Order)
 admin.site.register(OrderItem)
+admin.site.register(Branch)

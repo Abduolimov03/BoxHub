@@ -1,4 +1,5 @@
 from django.core.exceptions import ObjectDoesNotExist
+from apps.models.branches_model import Branch
 from django.db.models import (
     Model, ForeignKey, CASCADE, DateTimeField, CharField, PositiveIntegerField
 )
@@ -11,7 +12,9 @@ PRODUCT_TYPES = (
 
 class Order(Model):
     user = ForeignKey('apps.User', CASCADE, related_name='orders')
+    branch = ForeignKey(Branch, CASCADE, related_name='orders')
     created_at = DateTimeField(auto_now_add=True)
+
 
     @property
     def total_amount(self):
