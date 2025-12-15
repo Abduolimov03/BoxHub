@@ -6,7 +6,7 @@ from django.db.models import (
 
 PRODUCT_TYPES = (
     ("coffee", "Coffee & Tea"),   # CoffeeSize orqali
-    ("product", "Product"),       # Product modeli orqali
+    ("product", "Product"),
 )
 
 
@@ -66,3 +66,6 @@ class OrderItem(Model):
 
     def __str__(self):
         return f"{self.product_type} - {self.product_id}"
+
+
+# yarmi carda yarmi naqt tolovlar
